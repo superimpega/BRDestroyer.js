@@ -2,15 +2,15 @@ API.sendChat('/me Running Hue Kicker version 1.2')
     API.on (API.CHAT, function (data) {
       console.log(data);
              var a = data.message.toLowerCase();
-              if (a.indexOf('hue') > -1)
+              if (a.indexOf('huehuehue') > -1)
               {
               	API.moderateKickUser(data.fromID, "Spamming hue");
               }
-              else if (a.indexOf('br') > -1)
+              else if (a.indexOf('brbrbr') > -1)
               {
               	API.moderateKickUser(data.fromID, "Spamming br");
               }
-              else if (a.indexOf('hu3') > -1)
+              else if (a.indexOf('hu3hu3') > -1)
               {
               	API.moderateKickUser(data.fromID, "Spamming hu3");
               }
