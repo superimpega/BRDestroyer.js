@@ -1,4 +1,4 @@
-API.sendChat('/me Running Hue Kicker version 1.2')
+API.sendChat('Running Project Chocolate Puppies version 1.2')
     API.on (API.CHAT, function (data) {
       console.log(data);
              var a = data.message.toLowerCase();
